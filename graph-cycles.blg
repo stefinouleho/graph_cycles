@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: graph-cycles.aux
+The style file: achemso.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: acs-graph-cycles.bib
+Database file #2: graph-cycles.bib
+achemso 2017/05/18 v3.10i
+You've used 23 entries,
+            2536 wiz_defined-function locations,
+            888 strings with 10129 characters,
+and the built_in function-call counts, 6382 in all, are:
+= -- 485
+> -- 351
+< -- 16
++ -- 140
+- -- 118
+* -- 673
+:= -- 862
+add.period$ -- 24
+call.type$ -- 23
+change.case$ -- 5
+chr.to.int$ -- 3
+cite$ -- 25
+duplicate$ -- 374
+empty$ -- 461
+format.name$ -- 148
+if$ -- 1225
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 160
+num.names$ -- 60
+pop$ -- 49
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 21
+stack$ -- 0
+substring$ -- 274
+swap$ -- 344
+text.length$ -- 44
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 149
+warning$ -- 0
+while$ -- 68
+width$ -- 0
+write$ -- 277

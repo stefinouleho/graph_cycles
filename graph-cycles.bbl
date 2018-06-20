@@ -1,0 +1,191 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{23}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[John W.~Raymond \latin{et~al.}(2002)John W.~Raymond, Gardiner, and
+  Peter]{Raymond2002}
+John W.~Raymond,~J.; Gardiner,~E.~J.; Peter,~W. \emph{The Computer Journal}
+  \textbf{2002}, \emph{45}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[rea()]{reaxys}
+Reaxys. \url{https://www.elsevier.com/solutions/reaxys}, Accessed Nov,
+  2017\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[che()]{chebi}
+Chemical Entities of Biological Interest (ChEBI).
+  \url{https://www.ebi.ac.uk/chebi/}, Accessed April 1, 2015\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zager and Verghese(2008)Zager, and Verghese]{Zager2008}
+Zager,~L.~A.; Verghese,~G.~C. \emph{Applied Mathematics Letters} \textbf{2008},
+  \emph{45}, 86--94\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Johnson and Maggiora(1988)Johnson, and Maggiora]{Johnson1990}
+Johnson,~M.~A.; Maggiora,~G.~M. \emph{Concepts and applications of molecular
+  similarity}; The American Chemical Society, 1988\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Eckert and Bajorath(2007)Eckert, and Bajorath]{Eckert2007}
+Eckert,~H.; Bajorath,~J. \emph{Drug Discovery Today} \textbf{2007}, \emph{12},
+  225--233\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Michel and Horst(2007)Michel, and Horst]{Neuhaus2007}
+Michel,~N.; Horst,~B. \emph{Bridging the Gap Between Graph Edit Distance and
+  Kernel Machines}; World Scientific Publishing Co., Inc., 2007\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Roger \latin{et~al.}(2015)Roger, John, Boyle, Andrew~J., Stefan, and
+  Darren~V.S.]{Sayle2015}
+Roger,~S.; John,~M.; Boyle,~N.~O.; Andrew~J.,~G.; Stefan,~S.; Darren~V.S.,~G.
+  \emph{7th Joint Sheffield Conference on Chemoinformatics} \textbf{2015},
+  \relax
+\mciteBstWouldAddEndPunctfalse
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Cereto-Massagu\'e \latin{et~al.}(2015)Cereto-Massagu\'e, Ojeda, Valls,
+  Mulero, Garcia-Vallv\'e, and Pujadas]{Cereto2015}
+Cereto-Massagu\'e,~A.; Ojeda,~M.~J.; Valls,~C.; Mulero,~M.;
+  Garcia-Vallv\'e,~S.; Pujadas,~G. \emph{Methods} \textbf{2015}, \emph{71}, 58
+  -- 63\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Andreas \latin{et~al.}(2009)Andreas, Jeremy~L., Josef, Sai C.~K.,
+  Meir, and John~W.]{Bender2009}
+Andreas,~B.; Jeremy~L.,~J.; Josef,~S.; Sai C.~K.,~S.; Meir,~G.; John~W.,~D.
+  \emph{J. Chem. Inf. Model.} \textbf{2009}, \emph{49}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[K. and F.(2010)K., and F.]{Grave2010}
+K.,~d.~G.; F.,~C. \emph{J. Chem. Inf. Model.} \textbf{2010}, \emph{50},
+  1660--1668\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Benoit \latin{et~al.}(2015)Benoit, L., and D.]{Gauzere2015}
+Benoit,~G.; L.,~B.; D.,~V. \emph{Quantitative Graph Theory Mathematical
+  Foundations and Applications, CRC Press} \textbf{2015}, 425--470\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Abu-khzam \latin{et~al.}(2007)Abu-khzam, Samatova, A.~Rizk, and
+  Langston]{Faisal2007}
+Abu-khzam,~F.; Samatova,~N.; A.~Rizk,~M.; Langston,~M. \emph{IEEE/ACS
+  International Conference on Computer Systems and Applications} \textbf{2007},
+  367--373\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tatsuya and Hiroshi(2013)Tatsuya, and Hiroshi]{Akutsu2013}
+Tatsuya,~A.; Hiroshi,~N. \emph{Comput Struct Biotechnol J.} \textbf{2013},
+  \emph{5}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Benoit \latin{et~al.}(2013)Benoit, L., and D.]{Gauzere2013}
+Benoit,~G.; L.,~B.; D.,~V. \emph{9th IAPR-TC-15 Graph-Based Representations in
+  Pattern Recognition} \textbf{2013}, 111\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[T. \latin{et~al.}(2004)T., T., and S.]{Horvarth2004}
+T.,~H.; T.,~G.; S.,~W. \emph{KDD-2004 - Proceedings of the Tenth ACM SIGKDD
+  International Conference on Knowledge Discovery and Data Mining}
+  \textbf{2004}, 158--167\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Michael~F. and John~D.(1996)Michael~F., and John~D.]{Lynch1996}
+Michael~F.,~L.; John~D.,~H. \emph{J. Chem. Inf. Comput. Sci.} \textbf{1996},
+  \emph{36}, 930--936\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Valerie~J. \latin{et~al.}(1991)Valerie~J., Geoffrey~M., John~D.,
+  Michael~F., and Winfried]{Gillet1991}
+Valerie~J.,~G.; Geoffrey~M.,~D.; John~D.,~H.; Michael~F.,~L.; Winfried,~D.
+  \emph{J. Chem. Inf. Comput. Sci.} \textbf{1991}, \emph{31}, 260--270\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Berge(1963)]{Berge1963}
+Berge,~C. \emph{Dunod} \textbf{1963}, \relax
+\mciteBstWouldAddEndPunctfalse
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gasteiger(2003)]{Gasteiger2003}
+Gasteiger,~J. \emph{Handbook of Chemoinformatics : From Data to Knowledge
+  (Representation of Molecular Structures)}, 1st ed.; Wiley, 2003\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Joseph~D.(1987)]{Horton1987}
+Joseph~D.,~H. \emph{SIAM Journal on Computing} \textbf{1987}, \emph{16},
+  358--366\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Philippe(1997)]{Vismara1997}
+Philippe,~V. \emph{Electr. J. Comb.} \textbf{1997}, \emph{4}, 73--87\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
